@@ -16,8 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Tentukan apakah ini halaman Home (index.html, atau root path /)
     const isHomePage = window.location.pathname.endsWith('index.html') || 
-                       window.location.pathname === '/' ||
-                       window.location.pathname.endsWith('/'); 
+                       window.location.pathname.endsWith('about.html')||
+                       window.location.pathname.endsWith('menu.html')||
+                       window.location.pathname.endsWith('event.html')||
+                       window.location.pathname.endsWith('store.html')||
+                       window.location.pathname.endsWith('contact.html'); 
 
     
     // =========================================================
